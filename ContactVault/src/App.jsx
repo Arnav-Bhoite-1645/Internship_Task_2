@@ -318,7 +318,7 @@ const App = () => {
                   type="text" 
                   value={formData.name}
                   onChange={(e) => setFormData({...formData, name: e.target.value})}
-                  placeholder="e.g. Alex Smith"
+                  placeholder="e.g. Arnav Bhoite"
                 />
               </div>
               <div className="form-group">
@@ -327,7 +327,7 @@ const App = () => {
                   type="email" 
                   value={formData.email}
                   onChange={(e) => setFormData({...formData, email: e.target.value})}
-                  placeholder="alex@example.com"
+                  placeholder="arnav@mail.com"
                 />
               </div>
               <div className="form-group">

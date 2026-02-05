@@ -1,0 +1,36 @@
+@import './variables.css';
+
+.table-container {
+  overflow-x: auto;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid var(--border-gray);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th {
+  background: var(--bg-gray);
+  padding: 1rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--text-gray);
+  border-bottom: 1px solid var(--border-gray);
+}
+
+td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-gray);
+  font-size: 0.875rem;
+}
+
+.badge {
+  padding: 0.25rem 0.5rem;
+  background: var(--bg-gray);
+  border-radius: 4px;
+  font-size: 0.75rem;
+}

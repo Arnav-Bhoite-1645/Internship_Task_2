@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from '../../hooks/useForm';
 import { validateAdminPassword } from '../../utils/validation';
 import Card from '../common/Card';
-import '../styles/components.css';
+import '../../styles/components.css';
 
 const AdminLogin = ({ onLogin, onError }) => {
   const { formData, handleChange } = useForm({ password: '' });
